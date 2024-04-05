@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2024-03-28">
-    <creator>NetworkX 3.2.1</creator>
+  <meta lastmodifieddate="2024-04-05">
+    <creator>NetworkX 2.8.4</creator>
   </meta>
   <graph defaultedgetype="directed" mode="static" name="">
     <attributes mode="static" class="node">
@@ -96,7 +96,7 @@
           <attvalue for="8" value="10-12" />
           <attvalue for="9" value="Sub-Saharan Africa" />
           <attvalue for="10" value="0" />
-          <attvalue for="11" value="4.807414956829413e-06" />
+          <attvalue for="11" value="4.83736769799346e-06" />
         </attvalues>
       </node>
       <node id="Alpine Ibex" label="Alpine Ibex">
@@ -304,7 +304,7 @@
           <attvalue for="8" value="1-3" />
           <attvalue for="9" value="North America" />
           <attvalue for="10" value="1" />
-          <attvalue for="11" value="0.00011858290226845886" />
+          <attvalue for="11" value="0.00011932173655050535" />
         </attvalues>
       </node>
       <node id="Banded Palm Civet" label="Banded Palm Civet">
@@ -432,7 +432,7 @@
           <attvalue for="8" value="2-6" />
           <attvalue for="9" value="North America" />
           <attvalue for="10" value="2" />
-          <attvalue for="11" value="2.8844489740976482e-05" />
+          <attvalue for="11" value="2.902420618796076e-05" />
         </attvalues>
       </node>
       <node id="Blue Morpho Butterfly" label="Blue Morpho Butterfly">
@@ -624,7 +624,7 @@
           <attvalue for="8" value="3-5" />
           <attvalue for="9" value="Africa, Iran, India" />
           <attvalue for="10" value="0" />
-          <attvalue for="11" value="2.4037074784147066e-05" />
+          <attvalue for="11" value="2.41868384899673e-05" />
         </attvalues>
       </node>
       <node id="Chimpanzee" label="Chimpanzee">
@@ -736,7 +736,7 @@
           <attvalue for="8" value="1-10" />
           <attvalue for="9" value="Australia" />
           <attvalue for="10" value="5" />
-          <attvalue for="11" value="9.614829913658826e-05" />
+          <attvalue for="11" value="9.67473539598692e-05" />
         </attvalues>
       </node>
       <node id="Dugong" label="Dugong">
@@ -912,7 +912,7 @@
           <attvalue for="8" value="2-4" />
           <attvalue for="9" value="Madagascar" />
           <attvalue for="10" value="0" />
-          <attvalue for="11" value="7.691863930927061e-05" />
+          <attvalue for="11" value="7.739788316789536e-05" />
         </attvalues>
       </node>
       <node id="Frilled Lizard" label="Frilled Lizard">
@@ -1120,7 +1120,7 @@
           <attvalue for="8" value="2-14 (approx.)" />
           <attvalue for="9" value="Oceans worldwide" />
           <attvalue for="10" value="3" />
-          <attvalue for="11" value="9.614829913658827e-06" />
+          <attvalue for="11" value="9.67473539598692e-06" />
         </attvalues>
       </node>
       <node id="Green Anaconda" label="Green Anaconda">
@@ -1200,7 +1200,7 @@
           <attvalue for="8" value="1" />
           <attvalue for="9" value="Central and South America" />
           <attvalue for="10" value="4" />
-          <attvalue for="11" value="1.9229659827317653e-05" />
+          <attvalue for="11" value="1.934947079197384e-05" />
         </attvalues>
       </node>
       <node id="Hippopotamus" label="Hippopotamus">
@@ -1680,7 +1680,7 @@
           <attvalue for="8" value="1" />
           <attvalue for="9" value="Indonesia, Malaysia" />
           <attvalue for="10" value="0" />
-          <attvalue for="11" value="3.845931965463531e-05" />
+          <attvalue for="11" value="3.869894158394768e-05" />
         </attvalues>
       </node>
       <node id="Pangolin" label="Pangolin">
@@ -1760,7 +1760,7 @@
           <attvalue for="8" value="1-2" />
           <attvalue for="9" value="Arctic" />
           <attvalue for="10" value="3" />
-          <attvalue for="11" value="9.614829913658827e-06" />
+          <attvalue for="11" value="9.67473539598692e-06" />
         </attvalues>
       </node>
       <node id="Potoo" label="Potoo">
@@ -1856,7 +1856,7 @@
           <attvalue for="8" value="4-6" />
           <attvalue for="9" value="North America, Europe, Asia" />
           <attvalue for="10" value="1" />
-          <attvalue for="11" value="2.2434603131870594e-05" />
+          <attvalue for="11" value="2.2574382590636145e-05" />
         </attvalues>
       </node>
       <node id="Red Kangaroo" label="Red Kangaroo">
@@ -1952,7 +1952,7 @@
           <attvalue for="8" value="1" />
           <attvalue for="9" value="Africa" />
           <attvalue for="10" value="0" />
-          <attvalue for="11" value="1.9229659827317653e-05" />
+          <attvalue for="11" value="1.934947079197384e-05" />
         </attvalues>
       </node>
       <node id="Shoebill" label="Shoebill">
@@ -2016,7 +2016,7 @@
           <attvalue for="8" value="1-5" />
           <attvalue for="9" value="Central and South Asia" />
           <attvalue for="10" value="8" />
-          <attvalue for="11" value="3.3651904697805894e-05" />
+          <attvalue for="11" value="3.386157388595422e-05" />
         </attvalues>
       </node>
       <node id="Snowy Owl" label="Snowy Owl">
@@ -2032,7 +2032,7 @@
           <attvalue for="8" value="3-11" />
           <attvalue for="9" value="Arctic, North America" />
           <attvalue for="10" value="1" />
-          <attvalue for="11" value="2.2434603131870594e-05" />
+          <attvalue for="11" value="2.2574382590636145e-05" />
         </attvalues>
       </node>
       <node id="Spectacled Bear" label="Spectacled Bear">
@@ -2240,7 +2240,7 @@
           <attvalue for="8" value="20-30" />
           <attvalue for="9" value="Tasmania, Australia" />
           <attvalue for="10" value="5" />
-          <attvalue for="11" value="9.614829913658827e-06" />
+          <attvalue for="11" value="9.67473539598692e-06" />
         </attvalues>
       </node>
       <node id="Thorny Devil" label="Thorny Devil">
@@ -2288,7 +2288,7 @@
           <attvalue for="8" value="1-4" />
           <attvalue for="9" value="Asia, Russia" />
           <attvalue for="10" value="0" />
-          <attvalue for="11" value="0.00013460761879122358" />
+          <attvalue for="11" value="0.00015479576633579072" />
         </attvalues>
       </node>
       <node id="Tree Kangaroo" label="Tree Kangaroo">
@@ -2544,7 +2544,7 @@
           <attvalue for="8" value="2-20" />
           <attvalue for="9" value="Eurasia, North America, North Africa" />
           <attvalue for="10" value="1" />
-          <attvalue for="11" value="0.00021312872975277065" />
+          <attvalue for="11" value="0.00021445663461104337" />
         </attvalues>
       </node>
       <node id="Wolverine" label="Wolverine">
@@ -2560,7 +2560,7 @@
           <attvalue for="8" value="2-3" />
           <attvalue for="9" value="North America, Europe, Asia" />
           <attvalue for="10" value="1" />
-          <attvalue for="11" value="6.08939227865059e-05" />
+          <attvalue for="11" value="6.127332417458382e-05" />
         </attvalues>
       </node>
       <node id="Wombat" label="Wombat">
@@ -2763,14 +2763,6 @@
           <attvalue for="11" value="0.0" />
         </attvalues>
       </node>
-      <node id="Tigre" label="Tigre">
-        <attvalues>
-          <attvalue for="0" value="Not Have" />
-          <attvalue for="1" value="No" />
-          <attvalue for="10" value="15" />
-          <attvalue for="11" value="0.0" />
-        </attvalues>
-      </node>
       <node id="Great Skua" label="Great Skua">
         <attvalues>
           <attvalue for="0" value="Not Have" />
@@ -2963,7 +2955,7 @@
           <attvalue for="11" value="0.0" />
         </attvalues>
       </node>
-      <node id="Asian Tigre" label="Asian Tigre">
+      <node id="Asian Tiger" label="Asian Tiger">
         <attvalues>
           <attvalue for="0" value="Not Have" />
           <attvalue for="1" value="No" />
@@ -3159,7 +3151,7 @@
         <attvalues>
           <attvalue for="0" value="Not Have" />
           <attvalue for="1" value="No" />
-          <attvalue for="10" value="16" />
+          <attvalue for="10" value="15" />
           <attvalue for="11" value="0.0" />
         </attvalues>
       </node>
@@ -3167,7 +3159,7 @@
         <attvalues>
           <attvalue for="0" value="Not Have" />
           <attvalue for="1" value="No" />
-          <attvalue for="10" value="17" />
+          <attvalue for="10" value="16" />
           <attvalue for="11" value="0.0" />
         </attvalues>
       </node>
@@ -3263,7 +3255,7 @@
         <attvalues>
           <attvalue for="0" value="Not Have" />
           <attvalue for="1" value="No" />
-          <attvalue for="10" value="18" />
+          <attvalue for="10" value="17" />
           <attvalue for="11" value="0.0" />
         </attvalues>
       </node>
@@ -4107,7 +4099,7 @@
       <edge source="Bull Shark" target="Bottlenose Dolphin" id="323" />
       <edge source="Mammal" target="Brazilian Wandering Spider" id="324" />
       <edge source="Cougar" target="Brown Bear" id="325" />
-      <edge source="Asian Tigre" target="Burmese Python" id="326" />
+      <edge source="Asian Tiger" target="Burmese Python" id="326" />
       <edge source="Anaconda" target="Capybara" id="327" />
       <edge source="Caiman" target="Capybara" id="328" />
       <edge source="Otter" target="Chinese Giant Salamander" id="329" />
