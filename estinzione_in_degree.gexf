@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
   <meta lastmodifieddate="2024-04-05">
-    <creator>NetworkX 2.8.4</creator>
+    <creator>NetworkX 3.2.1</creator>
   </meta>
   <graph defaultedgetype="directed" mode="static" name="">
     <attributes mode="static" class="node">
@@ -192,6 +192,22 @@
           <attvalue for="8" value="Not Applicable" />
           <attvalue for="9" value="South America, Asia" />
           <attvalue for="10" value="9" />
+          <attvalue for="11" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="Asian Elephant" label="Asian Elephant">
+        <attvalues>
+          <attvalue for="0" value="Endangered" />
+          <attvalue for="1" value="Yes" />
+          <attvalue for="2" value="200-300" />
+          <attvalue for="3" value="2000-5000" />
+          <attvalue for="4" value="60-80" />
+          <attvalue for="5" value="Grasslands, Forests" />
+          <attvalue for="6" value="Elephantidae" />
+          <attvalue for="7" value="640-660" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="Asia (Southeast)" />
+          <attvalue for="10" value="0" />
           <attvalue for="11" value="0.0" />
         </attvalues>
       </node>
@@ -947,6 +963,22 @@
           <attvalue for="11" value="0.0" />
         </attvalues>
       </node>
+      <node id="Galliformes" label="Galliformes">
+        <attvalues>
+          <attvalue for="0" value="Varies" />
+          <attvalue for="1" value="Yes" />
+          <attvalue for="2" value="Varies" />
+          <attvalue for="3" value="Varies" />
+          <attvalue for="4" value="Varies" />
+          <attvalue for="5" value="Varies" />
+          <attvalue for="6" value="Phasianidae" />
+          <attvalue for="7" value="Varies" />
+          <attvalue for="8" value="Varies" />
+          <attvalue for="9" value="Worldwide" />
+          <attvalue for="10" value="16" />
+          <attvalue for="11" value="0.0" />
+        </attvalues>
+      </node>
       <node id="Gaur" label="Gaur">
         <attvalues>
           <attvalue for="0" value="Vulnerable" />
@@ -1168,6 +1200,22 @@
           <attvalue for="8" value="1" />
           <attvalue for="9" value="Eastern Africa" />
           <attvalue for="10" value="0" />
+          <attvalue for="11" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="Hagfish" label="Hagfish">
+        <attvalues>
+          <attvalue for="0" value="Least Concern" />
+          <attvalue for="1" value="Yes" />
+          <attvalue for="2" value="Up to 127" />
+          <attvalue for="3" value="Up to 0.7" />
+          <attvalue for="4" value="Up to 300" />
+          <attvalue for="5" value="Ocean Floor, Deep-sea" />
+          <attvalue for="6" value="Myxinidae" />
+          <attvalue for="7" value="Not Applicable" />
+          <attvalue for="8" value="Not Applicable" />
+          <attvalue for="9" value="Oceans worldwide" />
+          <attvalue for="10" value="17" />
           <attvalue for="11" value="0.0" />
         </attvalues>
       </node>
@@ -1968,6 +2016,22 @@
           <attvalue for="8" value="1-3" />
           <attvalue for="9" value="Tropical Central Tropical Africa" />
           <attvalue for="10" value="0" />
+          <attvalue for="11" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="Shortfin Mako Shark" label="Shortfin Mako Shark">
+        <attvalues>
+          <attvalue for="0" value="Vulnerable" />
+          <attvalue for="1" value="Yes" />
+          <attvalue for="2" value="Up to 394" />
+          <attvalue for="3" value="Up to 800" />
+          <attvalue for="4" value="28-35" />
+          <attvalue for="5" value="Oceans" />
+          <attvalue for="6" value="Lamnidae" />
+          <attvalue for="7" value="20-24" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="Worldwide" />
+          <attvalue for="10" value="13" />
           <attvalue for="11" value="0.0" />
         </attvalues>
       </node>
@@ -3806,390 +3870,394 @@
       <edge source="Snow Leopard" target="Yak" id="30" />
       <edge source="Spotted Hyena" target="Warthog" id="31" />
       <edge source="Tasmanian Devil" target="Wombat" id="32" />
-      <edge source="Tiger" target="Gaur" id="33" />
-      <edge source="Tiger" target="Gharial" id="34" />
-      <edge source="Tiger" target="Lion-tailed Macaque" id="35" />
-      <edge source="Tiger" target="Orangutan" id="36" />
-      <edge source="Tiger" target="Pangolin" id="37" />
-      <edge source="Tiger" target="Saola" id="38" />
-      <edge source="Tiger" target="Sumatran Orangutan" id="39" />
-      <edge source="Tiger" target="Sumatran Rhino" id="40" />
-      <edge source="Tiger" target="Sumatran Rhinoceros" id="41" />
-      <edge source="Tiger" target="Sun Bear" id="42" />
-      <edge source="Tiger" target="Water Buffalo" id="43" />
-      <edge source="Wolf" target="Alpine Ibex" id="44" />
-      <edge source="Wolf" target="American Bison" id="45" />
-      <edge source="Wolf" target="Arctic Fox" id="46" />
-      <edge source="Wolf" target="Bengal Fox" id="47" />
-      <edge source="Wolf" target="Brown Bear" id="48" />
-      <edge source="Wolf" target="Pronghorn" id="49" />
-      <edge source="Wolf" target="Red Fox" id="50" />
-      <edge source="Wolf" target="Snowy Owl" id="51" />
-      <edge source="Wolf" target="Wild Boar" id="52" />
-      <edge source="Wolf" target="Wolverine" id="53" />
-      <edge source="Wolf" target="Yak" id="54" />
-      <edge source="Wolverine" target="Bald Eagle" id="55" />
-      <edge source="Lion" target="Aardvark" id="56" />
-      <edge source="Lion" target="Aardwolf" id="57" />
-      <edge source="Lion" target="African Elephant" id="58" />
-      <edge source="Lion" target="African Wild Dog" id="59" />
-      <edge source="Lion" target="Arabian Oryx" id="60" />
-      <edge source="Lion" target="Black Rhinoceros" id="61" />
-      <edge source="Lion" target="Cheetah" id="62" />
-      <edge source="Lion" target="Gerenuk" id="63" />
-      <edge source="Lion" target="Grevy's Zebra" id="64" />
-      <edge source="Lion" target="Hippopotamus" id="65" />
-      <edge source="Lion" target="Pangolin" id="66" />
-      <edge source="Lion" target="Spotted Hyena" id="67" />
-      <edge source="Lion" target="Warthog" id="68" />
-      <edge source="Lion" target="Water Buffalo" id="69" />
-      <edge source="Lion" target="White Rhinoceros" id="70" />
-      <edge source="Lion" target="Wildebeest" id="71" />
-      <edge source="Lion" target="Zebra" id="72" />
-      <edge source="Hyena" target="Aardvark" id="73" />
-      <edge source="Hyena" target="African Elephant" id="74" />
-      <edge source="Hyena" target="African Lion" id="75" />
-      <edge source="Hyena" target="African Wild Dog" id="76" />
-      <edge source="Hyena" target="Black Rhinoceros" id="77" />
-      <edge source="Hyena" target="Cheetah" id="78" />
-      <edge source="Hyena" target="Gerenuk" id="79" />
-      <edge source="Hyena" target="Grevy's Zebra" id="80" />
-      <edge source="Hyena" target="Pangolin" id="81" />
-      <edge source="Hyena" target="Serval" id="82" />
-      <edge source="Hyena" target="White Rhinoceros" id="83" />
-      <edge source="Hyena" target="Wildebeest" id="84" />
-      <edge source="Hyena" target="Zebra" id="85" />
-      <edge source="Leopard" target="Aardwolf" id="86" />
-      <edge source="Leopard" target="Barbary Macaque" id="87" />
-      <edge source="Leopard" target="Bonobo" id="88" />
-      <edge source="Leopard" target="Bornean Orangutan" id="89" />
-      <edge source="Leopard" target="Burmese Python" id="90" />
-      <edge source="Leopard" target="Cheetah" id="91" />
-      <edge source="Leopard" target="Chimpanzee" id="92" />
-      <edge source="Leopard" target="Eastern Gorilla" id="93" />
-      <edge source="Leopard" target="Gaur" id="94" />
-      <edge source="Leopard" target="Gerenuk" id="95" />
-      <edge source="Leopard" target="Grevy's Zebra" id="96" />
-      <edge source="Leopard" target="Lion-tailed Macaque" id="97" />
-      <edge source="Leopard" target="Mandrill" id="98" />
-      <edge source="Leopard" target="Mountain Gorilla" id="99" />
-      <edge source="Leopard" target="Okapi" id="100" />
-      <edge source="Leopard" target="Pangolin" id="101" />
-      <edge source="Leopard" target="Saola" id="102" />
-      <edge source="Leopard" target="Serval" id="103" />
-      <edge source="Leopard" target="Sumatran Tiger" id="104" />
-      <edge source="Leopard" target="Sun Bear" id="105" />
-      <edge source="Leopard" target="Tiger" id="106" />
-      <edge source="Leopard" target="Warthog" id="107" />
-      <edge source="Leopard" target="Western Gorilla" id="108" />
-      <edge source="Leopard" target="Western Lowland Gorilla" id="109" />
-      <edge source="Leopard" target="White Tiger" id="110" />
-      <edge source="Crocodile" target="African Elephant" id="111" />
-      <edge source="Crocodile" target="African Lion" id="112" />
-      <edge source="Crocodile" target="Baird's Tapir" id="113" />
-      <edge source="Crocodile" target="Bengal Tiger" id="114" />
-      <edge source="Crocodile" target="Bornean Orangutan" id="115" />
-      <edge source="Crocodile" target="Dingo" id="116" />
-      <edge source="Crocodile" target="Eastern Gorilla" id="117" />
-      <edge source="Crocodile" target="Electric Eel" id="118" />
-      <edge source="Crocodile" target="Gharial" id="119" />
-      <edge source="Crocodile" target="Hippopotamus" id="120" />
-      <edge source="Crocodile" target="Proboscis Monkey" id="121" />
-      <edge source="Crocodile" target="Shoebill" id="122" />
-      <edge source="Crocodile" target="Sumatran Orangutan" id="123" />
-      <edge source="Crocodile" target="Tapir" id="124" />
-      <edge source="Crocodile" target="Water Buffalo" id="125" />
-      <edge source="Crocodile" target="Wildebeest" id="126" />
-      <edge source="Mountain Tiger" target="Alpine Ibex" id="127" />
-      <edge source="Lynx" target="Alpine Ibex" id="128" />
-      <edge source="Bear" target="Alpine Ibex" id="129" />
-      <edge source="Bear" target="Wolf" id="130" />
-      <edge source="Bear" target="Wolverine" id="131" />
-      <edge source="Fox" target="Alpine Ibex" id="132" />
-      <edge source="Fox" target="Atlantic Puffin" id="133" />
-      <edge source="Fox" target="Bearded Dragon" id="134" />
-      <edge source="Fox" target="Chinese Giant Salamander" id="135" />
-      <edge source="Fox" target="Echidna" id="136" />
-      <edge source="Fox" target="European Hedgehog" id="137" />
-      <edge source="Fox" target="Fire Salamander" id="138" />
-      <edge source="Fox" target="Numbat" id="139" />
-      <edge source="Fox" target="Patagonian Mara" id="140" />
-      <edge source="Fox" target="Pink Fairy Armadillo" id="141" />
-      <edge source="Fox" target="Pronghorn" id="142" />
-      <edge source="Fox" target="Quokka" id="143" />
-      <edge source="Fox" target="Snowy Owl" id="144" />
-      <edge source="Fox" target="Wombat" id="145" />
-      <edge source="Grizzly Bear" target="American Bison" id="146" />
-      <edge source="Grizzly Bear" target="Arctic Fox" id="147" />
-      <edge source="Jaguar" target="Anteater" id="148" />
-      <edge source="Jaguar" target="Baird's Tapir" id="149" />
-      <edge source="Jaguar" target="Capybara" id="150" />
-      <edge source="Jaguar" target="Electric Eel" id="151" />
-      <edge source="Jaguar" target="Green Anaconda" id="152" />
-      <edge source="Jaguar" target="Harpy Eagle" id="153" />
-      <edge source="Jaguar" target="Maned Wolf" id="154" />
-      <edge source="Jaguar" target="Sloth" id="155" />
-      <edge source="Jaguar" target="Spectacled Bear" id="156" />
-      <edge source="Jaguar" target="Spider Monkey" id="157" />
-      <edge source="Jaguar" target="Tapir" id="158" />
-      <edge source="Jaguar" target="Three-Toed Sloth" id="159" />
-      <edge source="Jaguar" target="Uakari" id="160" />
-      <edge source="Puma" target="Anteater" id="161" />
-      <edge source="Puma" target="Baird's Tapir" id="162" />
-      <edge source="Puma" target="Maned Wolf" id="163" />
-      <edge source="Puma" target="Spectacled Bear" id="164" />
-      <edge source="Striped Hyena" target="Arabian Oryx" id="165" />
-      <edge source="Arabian Wolf" target="Arabian Oryx" id="166" />
-      <edge source="Golden Eagle" target="Arctic Fox" id="167" />
-      <edge source="Golden Eagle" target="Pronghorn" id="168" />
-      <edge source="Bird" target="Arowana" id="169" />
-      <edge source="Bird" target="Axolotl" id="170" />
-      <edge source="Bird" target="Bearded Dragon" id="171" />
-      <edge source="Bird" target="Blue Morpho Butterfly" id="172" />
-      <edge source="Bird" target="Brazilian Wandering Spider" id="173" />
-      <edge source="Bird" target="Fire Salamander" id="174" />
-      <edge source="Bird" target="Frilled Lizard" id="175" />
-      <edge source="Bird" target="Glass Frog" id="176" />
-      <edge source="Bird" target="Golden Lion Tamarin" id="177" />
-      <edge source="Bird" target="Horseshoe Crab" id="178" />
-      <edge source="Bird" target="Japanese Giant Hornet" id="179" />
-      <edge source="Bird" target="King Cobra" id="180" />
-      <edge source="Bird" target="Leaf-tailed Gecko" id="181" />
-      <edge source="Bird" target="Malayan Krait" id="182" />
-      <edge source="Bird" target="Monitor Lizard" id="183" />
-      <edge source="Bird" target="Pink Fairy Armadillo" id="184" />
-      <edge source="Bird" target="Red-Eyed Tree Frog" id="185" />
-      <edge source="Bird" target="Slow Loris" id="186" />
-      <edge source="Bird" target="Tarsier" id="187" />
-      <edge source="Bird" target="Thorny Devil" id="188" />
-      <edge source="Larger Fish" target="Arowana" id="189" />
-      <edge source="Larger Fish" target="Blue-Ringed Octopus" id="190" />
-      <edge source="Larger Fish" target="Clownfish" id="191" />
-      <edge source="Larger Fish" target="Goblin Shark" id="192" />
-      <edge source="Larger Fish" target="Mantis Shrimp" id="193" />
-      <edge source="Larger Fish" target="Zebra Shark" id="194" />
-      <edge source="Great Skua" target="Atlantic Puffin" id="195" />
-      <edge source="Great Black-backed Gull" target="Atlantic Puffin" id="196" />
-      <edge source="Shark" target="Atlantic Spotted Dolphin" id="197" />
-      <edge source="Shark" target="Australian Fur Seal" id="198" />
-      <edge source="Shark" target="Blue-Footed Booby" id="199" />
-      <edge source="Shark" target="Coelacanth" id="200" />
-      <edge source="Shark" target="Common Dolphin" id="201" />
-      <edge source="Shark" target="Dugong" id="202" />
-      <edge source="Shark" target="GalÃ¡pagos Penguin" id="203" />
-      <edge source="Shark" target="Giant Pacific Octopus" id="204" />
-      <edge source="Shark" target="Manatee" id="205" />
-      <edge source="Shark" target="Pufferfish" id="206" />
-      <edge source="Shark" target="Vaquita" id="207" />
-      <edge source="Orca" target="Atlantic Spotted Dolphin" id="208" />
-      <edge source="Orca" target="Australian Fur Seal" id="209" />
-      <edge source="Orca" target="Basking Shark" id="210" />
-      <edge source="Orca" target="Blue Whale" id="211" />
-      <edge source="Orca" target="Blue-Footed Booby" id="212" />
-      <edge source="Orca" target="Common Dolphin" id="213" />
-      <edge source="Orca" target="Dugong" id="214" />
-      <edge source="Orca" target="Emperor Penguin" id="215" />
-      <edge source="Orca" target="GalÃ¡pagos Penguin" id="216" />
-      <edge source="Orca" target="Great White Shark" id="217" />
-      <edge source="Orca" target="Harp Seal" id="218" />
-      <edge source="Orca" target="Humpback Whale" id="219" />
-      <edge source="Orca" target="Narwhal" id="220" />
-      <edge source="Orca" target="Polar Bear" id="221" />
-      <edge source="Orca" target="Sperm Whale" id="222" />
-      <edge source="Orca" target="Vaquita" id="223" />
-      <edge source="Orca" target="Walrus" id="224" />
-      <edge source="Fish" target="Axolotl" id="225" />
-      <edge source="Fish" target="Giant Pacific Octopus" id="226" />
-      <edge source="Fish" target="Leafy Sea Dragon" id="227" />
-      <edge source="Fish" target="Peacock Mantis Shrimp" id="228" />
-      <edge source="Bird of Prey" target="Aye-Aye" id="229" />
-      <edge source="Bird of Prey" target="Banded Palm Civet" id="230" />
-      <edge source="Bird of Prey" target="Bengal Fox" id="231" />
-      <edge source="Bird of Prey" target="Emperor Tamarin" id="232" />
-      <edge source="Bird of Prey" target="Gila Monster" id="233" />
-      <edge source="Bird of Prey" target="Indri" id="234" />
-      <edge source="Bird of Prey" target="Patagonian Mara" id="235" />
-      <edge source="Bird of Prey" target="Pink Fairy Armadillo" id="236" />
-      <edge source="Bird of Prey" target="Potoo" id="237" />
-      <edge source="Owl" target="Bald Eagle" id="238" />
-      <edge source="Owl" target="Banded Palm Civet" id="239" />
-      <edge source="Owl" target="Blue Jay" id="240" />
-      <edge source="Owl" target="Flying Fox" id="241" />
-      <edge source="Owl" target="Gila Monster" id="242" />
-      <edge source="Owl" target="Vampire Bat" id="243" />
-      <edge source="Raccoon" target="Bald Eagle" id="244" />
-      <edge source="Crow" target="Bald Eagle" id="245" />
-      <edge source="Hawk" target="Bald Eagle" id="246" />
-      <edge source="Hawk" target="Blue Jay" id="247" />
-      <edge source="Hawk" target="Coquerel's Sifaka" id="248" />
-      <edge source="Hawk" target="Emperor Tamarin" id="249" />
-      <edge source="Hawk" target="Gila Monster" id="250" />
-      <edge source="Hawk" target="Squirrel Monkey" id="251" />
-      <edge source="Hawk" target="Vampire Bat" id="252" />
-      <edge source="Hawk" target="Vulture" id="253" />
-      <edge source="Snake" target="Banded Palm Civet" id="254" />
-      <edge source="Snake" target="Bearded Dragon" id="255" />
-      <edge source="Snake" target="Blue Jay" id="256" />
-      <edge source="Snake" target="Emperor Tamarin" id="257" />
-      <edge source="Snake" target="Gila Monster" id="258" />
-      <edge source="Snake" target="Glass Frog" id="259" />
-      <edge source="Snake" target="Golden Lion Tamarin" id="260" />
-      <edge source="Snake" target="Golden Poison Dart Frog" id="261" />
-      <edge source="Snake" target="Harpy Eagle" id="262" />
-      <edge source="Snake" target="Leaf-tailed Gecko" id="263" />
-      <edge source="Snake" target="Lion-tailed Macaque" id="264" />
-      <edge source="Snake" target="Meerkat" id="265" />
-      <edge source="Snake" target="Monitor Lizard" id="266" />
-      <edge source="Snake" target="Naked Mole Rat" id="267" />
-      <edge source="Snake" target="Red-Eyed Tree Frog" id="268" />
-      <edge source="Snake" target="Secretary Bird" id="269" />
-      <edge source="Snake" target="Slow Loris" id="270" />
-      <edge source="Snake" target="Spider Monkey" id="271" />
-      <edge source="Snake" target="Squirrel Monkey" id="272" />
-      <edge source="Snake" target="Tarsier" id="273" />
-      <edge source="Snake" target="Thorny Devil" id="274" />
-      <edge source="Snake" target="Uakari" id="275" />
-      <edge source="Snake" target="Vulture" id="276" />
-      <edge source="Eagle" target="Barbary Macaque" id="277" />
-      <edge source="Eagle" target="Echidna" id="278" />
-      <edge source="Eagle" target="Fennec Fox" id="279" />
-      <edge source="Eagle" target="Flying Fox" id="280" />
-      <edge source="Eagle" target="Giant Panda" id="281" />
-      <edge source="Eagle" target="Meerkat" id="282" />
-      <edge source="Eagle" target="Red Fox" id="283" />
-      <edge source="Eagle" target="Red Kangaroo" id="284" />
-      <edge source="Eagle" target="Spider Monkey" id="285" />
-      <edge source="Eagle" target="Vampire Bat" id="286" />
-      <edge source="Eagle" target="Wombat" id="287" />
-      <edge source="Domestic Dog" target="Barbary Macaque" id="288" />
-      <edge source="Human" target="Bengal Tiger" id="289" />
-      <edge source="Human" target="Bonobo" id="290" />
-      <edge source="Human" target="Chimpanzee" id="291" />
-      <edge source="Human" target="Coelacanth" id="292" />
-      <edge source="Human" target="Eastern Gorilla" id="293" />
-      <edge source="Human" target="Fossa" id="294" />
-      <edge source="Human" target="Iberian Lynx" id="295" />
-      <edge source="Human" target="Komodo Dragon" id="296" />
-      <edge source="Human" target="Mandrill" id="297" />
-      <edge source="Human" target="Mountain Gorilla" id="298" />
-      <edge source="Human" target="Naked Mole Rat" id="299" />
-      <edge source="Human" target="Orangutan" id="300" />
-      <edge source="Human" target="Pufferfish" id="301" />
-      <edge source="Human" target="Snow Leopard" id="302" />
-      <edge source="Human" target="Sumatran Orangutan" id="303" />
-      <edge source="Human" target="Sumatran Rhino" id="304" />
-      <edge source="Human" target="Sumatran Rhinoceros" id="305" />
-      <edge source="Human" target="Sumatran Tiger" id="306" />
-      <edge source="Human" target="Tiger" id="307" />
-      <edge source="Human" target="Western Gorilla" id="308" />
-      <edge source="Human" target="Western Lowland Gorilla" id="309" />
-      <edge source="Human" target="White Tiger" id="310" />
-      <edge source="Human" target="Wolf" id="311" />
-      <edge source="Falcon" target="Blue Jay" id="312" />
-      <edge source="Bat" target="Blue Morpho Butterfly" id="313" />
-      <edge source="Bearded Pig" target="Bornean Orangutan" id="314" />
-      <edge source="Python" target="Bornean Orangutan" id="315" />
-      <edge source="Python" target="Flying Fox" id="316" />
-      <edge source="Python" target="Pangolin" id="317" />
-      <edge source="Python" target="Proboscis Monkey" id="318" />
-      <edge source="Python" target="Tree Kangaroo" id="319" />
-      <edge source="Black Eagle" target="Bornean Orangutan" id="320" />
-      <edge source="Tiger Shark" target="Bottlenose Dolphin" id="321" />
-      <edge source="Dusky Shark" target="Bottlenose Dolphin" id="322" />
-      <edge source="Bull Shark" target="Bottlenose Dolphin" id="323" />
-      <edge source="Mammal" target="Brazilian Wandering Spider" id="324" />
-      <edge source="Cougar" target="Brown Bear" id="325" />
-      <edge source="Asian Tiger" target="Burmese Python" id="326" />
-      <edge source="Anaconda" target="Capybara" id="327" />
-      <edge source="Caiman" target="Capybara" id="328" />
-      <edge source="Otter" target="Chinese Giant Salamander" id="329" />
-      <edge source="Weasel" target="Chinese Giant Salamander" id="330" />
-      <edge source="Badger" target="Chinese Giant Salamander" id="331" />
-      <edge source="Badger" target="European Hedgehog" id="332" />
-      <edge source="Anemone" target="Clownfish" id="333" />
-      <edge source="Coyote" target="Gila Monster" id="334" />
-      <edge source="Coyote" target="Pronghorn" id="335" />
-      <edge source="Canid Species" target="Dingo" id="336" />
-      <edge source="Saltwater Crocodile" target="Dugong" id="337" />
-      <edge source="Saltwater Crocodile" target="Gaur" id="338" />
-      <edge source="Feral Cat" target="Echidna" id="339" />
-      <edge source="Goanna" target="Echidna" id="340" />
-      <edge source="Leopard Seal" target="Emperor Penguin" id="341" />
-      <edge source="Sea Lion" target="Emperor Penguin" id="342" />
-      <edge source="Wild Cat" target="Emperor Tamarin" id="343" />
-      <edge source="Wild Cat" target="Golden Lion Tamarin" id="344" />
-      <edge source="Wild Cat" target="Vulture" id="345" />
-      <edge source="Dog" target="Emperor Tamarin" id="346" />
-      <edge source="Jackal" target="Fennec Fox" id="347" />
-      <edge source="Jackal" target="Meerkat" id="348" />
-      <edge source="Large Mammal" target="Fennec Fox" id="349" />
-      <edge source="Larger Predator" target="Fossa" id="350" />
-      <edge source="Larger Predator" target="Komodo Dragon" id="351" />
-      <edge source="Dhole" target="Gaur" id="352" />
-      <edge source="Yellow-Throated Marten" target="Giant Panda" id="353" />
-      <edge source="Feral Dog" target="Giant Panda" id="354" />
-      <edge source="Feral Dog" target="Japanese Macaque" id="355" />
-      <edge source="Asian Black Bear" target="Giant Panda" id="356" />
-      <edge source="Other Shark" target="Goblin Shark" id="357" />
-      <edge source="Cayman" target="Green Anaconda" id="358" />
-      <edge source="Crab-eating Fox" target="Green Anaconda" id="359" />
-      <edge source="Tegu Lizard" target="Green Anaconda" id="360" />
-      <edge source="Crested Caracara" target="Green Anaconda" id="361" />
-      <edge source="Predatory Fish" target="Green Sea Turtle" id="362" />
-      <edge source="Predatory Fish" target="Horseshoe Crab" id="363" />
-      <edge source="Predatory Fish" target="Nudibranch" id="364" />
-      <edge source="Hunting Dog" target="Grevy's Zebra" id="365" />
-      <edge source="Large Shark" target="Harp Seal" id="366" />
-      <edge source="Wildcat" target="Iberian Lynx" id="367" />
-      <edge source="Bee" target="Japanese Giant Hornet" id="368" />
-      <edge source="Mountain Hawk Eagle" target="Japanese Macaque" id="369" />
-      <edge source="Raccoon Dog" target="Japanese Macaque" id="370" />
-      <edge source="Rat" target="Kakapo" id="371" />
-      <edge source="Rat" target="Tuatara" id="372" />
-      <edge source="Cat" target="Kakapo" id="373" />
-      <edge source="Cat" target="Kiwi" id="374" />
-      <edge source="Cat" target="Numbat" id="375" />
-      <edge source="Cat" target="Quokka" id="376" />
-      <edge source="Cat" target="Tuatara" id="377" />
-      <edge source="Bobcat" target="Pronghorn" id="378" />
-      <edge source="Raptor" target="Lion-tailed Macaque" id="379" />
-      <edge source="Raptor" target="Tarsier" id="380" />
-      <edge source="Mongoose" target="King Cobra" id="381" />
-      <edge source="Mongoose" target="Malayan Krait" id="382" />
-      <edge source="Stoat" target="Kiwi" id="383" />
-      <edge source="Octopus" target="Leafy Sea Dragon" id="384" />
-      <edge source="Boa" target="Lemur" id="385" />
-      <edge source="Quoll" target="Tree Kangaroo" id="386" />
-      <edge source="Alligator" target="Manatee" id="387" />
-      <edge source="African Rock Python" target="Mandrill" id="388" />
-      <edge source="Crowned Eagle" target="Mandrill" id="389" />
-      <edge source="Eurasian Lynx" target="Markhor" id="390" />
-      <edge source="Himalayan Wolfe" target="Markhor" id="391" />
-      <edge source="Brown Bea" target="Markhor" id="392" />
-      <edge source="Sea Anemone" target="Nudibranch" id="393" />
-      <edge source="Golden Cat" target="Okapi" id="394" />
-      <edge source="Large Python" target="Orangutan" id="395" />
-      <edge source="Large Python" target="Sumatran Orangutan" id="396" />
-      <edge source="Felid" target="Patagonian Mara" id="397" />
-      <edge source="Grison" target="Patagonian Mara" id="398" />
-      <edge source="Crustacean" target="Peacock Mantis Shrimp" id="399" />
-      <edge source="Canid" target="Pink Fairy Armadillo" id="400" />
-      <edge source="Lizard" target="Secretary Bird" id="401" />
-      <edge source="Clouded Leopard" target="Proboscis Monkey" id="402" />
-      <edge source="Clouded Leopard" target="Sumatran Orangutan" id="403" />
-      <edge source="Marten" target="Red Panda" id="404" />
-      <edge source="Wild Dog" target="Serval" id="405" />
-      <edge source="Wild Dog" target="Wildebeest" id="406" />
-      <edge source="Wild Dog" target="Wombat" id="407" />
-      <edge source="Ocelot" target="Sloth" id="408" />
-      <edge source="Ocelot" target="Three-Toed Sloth" id="409" />
-      <edge source="Hawk Eagle" target="Slow Loris" id="410" />
-      <edge source="Tasmanian Tiger" target="Tasmanian Devil" id="411" />
-      <edge source="Bird of Pray" target="Tuatara" id="412" />
-      <edge source="Bird of Pray" target="Uakari" id="413" />
-      <edge source="Net" target="Vaquita" id="414" />
-      <edge source="Mountain Lion" target="Wolverine" id="415" />
-      <edge source="Wild dog" target="Zebra" id="416" />
+      <edge source="Tiger" target="Asian Elephant" id="33" />
+      <edge source="Tiger" target="Gaur" id="34" />
+      <edge source="Tiger" target="Gharial" id="35" />
+      <edge source="Tiger" target="Lion-tailed Macaque" id="36" />
+      <edge source="Tiger" target="Orangutan" id="37" />
+      <edge source="Tiger" target="Pangolin" id="38" />
+      <edge source="Tiger" target="Saola" id="39" />
+      <edge source="Tiger" target="Sumatran Orangutan" id="40" />
+      <edge source="Tiger" target="Sumatran Rhino" id="41" />
+      <edge source="Tiger" target="Sumatran Rhinoceros" id="42" />
+      <edge source="Tiger" target="Sun Bear" id="43" />
+      <edge source="Tiger" target="Water Buffalo" id="44" />
+      <edge source="Wolf" target="Alpine Ibex" id="45" />
+      <edge source="Wolf" target="American Bison" id="46" />
+      <edge source="Wolf" target="Arctic Fox" id="47" />
+      <edge source="Wolf" target="Bengal Fox" id="48" />
+      <edge source="Wolf" target="Brown Bear" id="49" />
+      <edge source="Wolf" target="Pronghorn" id="50" />
+      <edge source="Wolf" target="Red Fox" id="51" />
+      <edge source="Wolf" target="Snowy Owl" id="52" />
+      <edge source="Wolf" target="Wild Boar" id="53" />
+      <edge source="Wolf" target="Wolverine" id="54" />
+      <edge source="Wolf" target="Yak" id="55" />
+      <edge source="Wolverine" target="Bald Eagle" id="56" />
+      <edge source="Lion" target="Aardvark" id="57" />
+      <edge source="Lion" target="Aardwolf" id="58" />
+      <edge source="Lion" target="African Elephant" id="59" />
+      <edge source="Lion" target="African Wild Dog" id="60" />
+      <edge source="Lion" target="Arabian Oryx" id="61" />
+      <edge source="Lion" target="Black Rhinoceros" id="62" />
+      <edge source="Lion" target="Cheetah" id="63" />
+      <edge source="Lion" target="Gerenuk" id="64" />
+      <edge source="Lion" target="Grevy's Zebra" id="65" />
+      <edge source="Lion" target="Hippopotamus" id="66" />
+      <edge source="Lion" target="Pangolin" id="67" />
+      <edge source="Lion" target="Spotted Hyena" id="68" />
+      <edge source="Lion" target="Warthog" id="69" />
+      <edge source="Lion" target="Water Buffalo" id="70" />
+      <edge source="Lion" target="White Rhinoceros" id="71" />
+      <edge source="Lion" target="Wildebeest" id="72" />
+      <edge source="Lion" target="Zebra" id="73" />
+      <edge source="Hyena" target="Aardvark" id="74" />
+      <edge source="Hyena" target="African Elephant" id="75" />
+      <edge source="Hyena" target="African Lion" id="76" />
+      <edge source="Hyena" target="African Wild Dog" id="77" />
+      <edge source="Hyena" target="Black Rhinoceros" id="78" />
+      <edge source="Hyena" target="Cheetah" id="79" />
+      <edge source="Hyena" target="Gerenuk" id="80" />
+      <edge source="Hyena" target="Grevy's Zebra" id="81" />
+      <edge source="Hyena" target="Pangolin" id="82" />
+      <edge source="Hyena" target="Serval" id="83" />
+      <edge source="Hyena" target="White Rhinoceros" id="84" />
+      <edge source="Hyena" target="Wildebeest" id="85" />
+      <edge source="Hyena" target="Zebra" id="86" />
+      <edge source="Leopard" target="Aardwolf" id="87" />
+      <edge source="Leopard" target="Barbary Macaque" id="88" />
+      <edge source="Leopard" target="Bonobo" id="89" />
+      <edge source="Leopard" target="Bornean Orangutan" id="90" />
+      <edge source="Leopard" target="Burmese Python" id="91" />
+      <edge source="Leopard" target="Cheetah" id="92" />
+      <edge source="Leopard" target="Chimpanzee" id="93" />
+      <edge source="Leopard" target="Eastern Gorilla" id="94" />
+      <edge source="Leopard" target="Gaur" id="95" />
+      <edge source="Leopard" target="Gerenuk" id="96" />
+      <edge source="Leopard" target="Grevy's Zebra" id="97" />
+      <edge source="Leopard" target="Lion-tailed Macaque" id="98" />
+      <edge source="Leopard" target="Mandrill" id="99" />
+      <edge source="Leopard" target="Mountain Gorilla" id="100" />
+      <edge source="Leopard" target="Okapi" id="101" />
+      <edge source="Leopard" target="Pangolin" id="102" />
+      <edge source="Leopard" target="Saola" id="103" />
+      <edge source="Leopard" target="Serval" id="104" />
+      <edge source="Leopard" target="Sumatran Tiger" id="105" />
+      <edge source="Leopard" target="Sun Bear" id="106" />
+      <edge source="Leopard" target="Tiger" id="107" />
+      <edge source="Leopard" target="Warthog" id="108" />
+      <edge source="Leopard" target="Western Gorilla" id="109" />
+      <edge source="Leopard" target="Western Lowland Gorilla" id="110" />
+      <edge source="Leopard" target="White Tiger" id="111" />
+      <edge source="Crocodile" target="African Elephant" id="112" />
+      <edge source="Crocodile" target="African Lion" id="113" />
+      <edge source="Crocodile" target="Baird's Tapir" id="114" />
+      <edge source="Crocodile" target="Bengal Tiger" id="115" />
+      <edge source="Crocodile" target="Bornean Orangutan" id="116" />
+      <edge source="Crocodile" target="Dingo" id="117" />
+      <edge source="Crocodile" target="Eastern Gorilla" id="118" />
+      <edge source="Crocodile" target="Electric Eel" id="119" />
+      <edge source="Crocodile" target="Gharial" id="120" />
+      <edge source="Crocodile" target="Hippopotamus" id="121" />
+      <edge source="Crocodile" target="Proboscis Monkey" id="122" />
+      <edge source="Crocodile" target="Shoebill" id="123" />
+      <edge source="Crocodile" target="Sumatran Orangutan" id="124" />
+      <edge source="Crocodile" target="Tapir" id="125" />
+      <edge source="Crocodile" target="Water Buffalo" id="126" />
+      <edge source="Crocodile" target="Wildebeest" id="127" />
+      <edge source="Mountain Tiger" target="Alpine Ibex" id="128" />
+      <edge source="Lynx" target="Alpine Ibex" id="129" />
+      <edge source="Bear" target="Alpine Ibex" id="130" />
+      <edge source="Bear" target="Wolf" id="131" />
+      <edge source="Bear" target="Wolverine" id="132" />
+      <edge source="Fox" target="Alpine Ibex" id="133" />
+      <edge source="Fox" target="Atlantic Puffin" id="134" />
+      <edge source="Fox" target="Bearded Dragon" id="135" />
+      <edge source="Fox" target="Chinese Giant Salamander" id="136" />
+      <edge source="Fox" target="Echidna" id="137" />
+      <edge source="Fox" target="European Hedgehog" id="138" />
+      <edge source="Fox" target="Fire Salamander" id="139" />
+      <edge source="Fox" target="Numbat" id="140" />
+      <edge source="Fox" target="Patagonian Mara" id="141" />
+      <edge source="Fox" target="Pink Fairy Armadillo" id="142" />
+      <edge source="Fox" target="Pronghorn" id="143" />
+      <edge source="Fox" target="Quokka" id="144" />
+      <edge source="Fox" target="Snowy Owl" id="145" />
+      <edge source="Fox" target="Wombat" id="146" />
+      <edge source="Grizzly Bear" target="American Bison" id="147" />
+      <edge source="Grizzly Bear" target="Arctic Fox" id="148" />
+      <edge source="Jaguar" target="Anteater" id="149" />
+      <edge source="Jaguar" target="Baird's Tapir" id="150" />
+      <edge source="Jaguar" target="Capybara" id="151" />
+      <edge source="Jaguar" target="Electric Eel" id="152" />
+      <edge source="Jaguar" target="Green Anaconda" id="153" />
+      <edge source="Jaguar" target="Harpy Eagle" id="154" />
+      <edge source="Jaguar" target="Maned Wolf" id="155" />
+      <edge source="Jaguar" target="Sloth" id="156" />
+      <edge source="Jaguar" target="Spectacled Bear" id="157" />
+      <edge source="Jaguar" target="Spider Monkey" id="158" />
+      <edge source="Jaguar" target="Tapir" id="159" />
+      <edge source="Jaguar" target="Three-Toed Sloth" id="160" />
+      <edge source="Jaguar" target="Uakari" id="161" />
+      <edge source="Puma" target="Anteater" id="162" />
+      <edge source="Puma" target="Baird's Tapir" id="163" />
+      <edge source="Puma" target="Maned Wolf" id="164" />
+      <edge source="Puma" target="Spectacled Bear" id="165" />
+      <edge source="Striped Hyena" target="Arabian Oryx" id="166" />
+      <edge source="Arabian Wolf" target="Arabian Oryx" id="167" />
+      <edge source="Golden Eagle" target="Arctic Fox" id="168" />
+      <edge source="Golden Eagle" target="Pronghorn" id="169" />
+      <edge source="Bird" target="Arowana" id="170" />
+      <edge source="Bird" target="Axolotl" id="171" />
+      <edge source="Bird" target="Bearded Dragon" id="172" />
+      <edge source="Bird" target="Blue Morpho Butterfly" id="173" />
+      <edge source="Bird" target="Brazilian Wandering Spider" id="174" />
+      <edge source="Bird" target="Fire Salamander" id="175" />
+      <edge source="Bird" target="Frilled Lizard" id="176" />
+      <edge source="Bird" target="Glass Frog" id="177" />
+      <edge source="Bird" target="Golden Lion Tamarin" id="178" />
+      <edge source="Bird" target="Horseshoe Crab" id="179" />
+      <edge source="Bird" target="Japanese Giant Hornet" id="180" />
+      <edge source="Bird" target="King Cobra" id="181" />
+      <edge source="Bird" target="Leaf-tailed Gecko" id="182" />
+      <edge source="Bird" target="Malayan Krait" id="183" />
+      <edge source="Bird" target="Monitor Lizard" id="184" />
+      <edge source="Bird" target="Pink Fairy Armadillo" id="185" />
+      <edge source="Bird" target="Red-Eyed Tree Frog" id="186" />
+      <edge source="Bird" target="Slow Loris" id="187" />
+      <edge source="Bird" target="Tarsier" id="188" />
+      <edge source="Bird" target="Thorny Devil" id="189" />
+      <edge source="Larger Fish" target="Arowana" id="190" />
+      <edge source="Larger Fish" target="Blue-Ringed Octopus" id="191" />
+      <edge source="Larger Fish" target="Clownfish" id="192" />
+      <edge source="Larger Fish" target="Goblin Shark" id="193" />
+      <edge source="Larger Fish" target="Mantis Shrimp" id="194" />
+      <edge source="Larger Fish" target="Zebra Shark" id="195" />
+      <edge source="Great Skua" target="Atlantic Puffin" id="196" />
+      <edge source="Great Black-backed Gull" target="Atlantic Puffin" id="197" />
+      <edge source="Shark" target="Atlantic Spotted Dolphin" id="198" />
+      <edge source="Shark" target="Australian Fur Seal" id="199" />
+      <edge source="Shark" target="Blue-Footed Booby" id="200" />
+      <edge source="Shark" target="Coelacanth" id="201" />
+      <edge source="Shark" target="Common Dolphin" id="202" />
+      <edge source="Shark" target="Dugong" id="203" />
+      <edge source="Shark" target="GalÃ¡pagos Penguin" id="204" />
+      <edge source="Shark" target="Giant Pacific Octopus" id="205" />
+      <edge source="Shark" target="Manatee" id="206" />
+      <edge source="Shark" target="Pufferfish" id="207" />
+      <edge source="Shark" target="Vaquita" id="208" />
+      <edge source="Orca" target="Atlantic Spotted Dolphin" id="209" />
+      <edge source="Orca" target="Australian Fur Seal" id="210" />
+      <edge source="Orca" target="Basking Shark" id="211" />
+      <edge source="Orca" target="Blue Whale" id="212" />
+      <edge source="Orca" target="Blue-Footed Booby" id="213" />
+      <edge source="Orca" target="Common Dolphin" id="214" />
+      <edge source="Orca" target="Dugong" id="215" />
+      <edge source="Orca" target="Emperor Penguin" id="216" />
+      <edge source="Orca" target="GalÃ¡pagos Penguin" id="217" />
+      <edge source="Orca" target="Great White Shark" id="218" />
+      <edge source="Orca" target="Harp Seal" id="219" />
+      <edge source="Orca" target="Humpback Whale" id="220" />
+      <edge source="Orca" target="Narwhal" id="221" />
+      <edge source="Orca" target="Polar Bear" id="222" />
+      <edge source="Orca" target="Sperm Whale" id="223" />
+      <edge source="Orca" target="Vaquita" id="224" />
+      <edge source="Orca" target="Walrus" id="225" />
+      <edge source="Fish" target="Axolotl" id="226" />
+      <edge source="Fish" target="Giant Pacific Octopus" id="227" />
+      <edge source="Fish" target="Leafy Sea Dragon" id="228" />
+      <edge source="Fish" target="Peacock Mantis Shrimp" id="229" />
+      <edge source="Bird of Prey" target="Aye-Aye" id="230" />
+      <edge source="Bird of Prey" target="Banded Palm Civet" id="231" />
+      <edge source="Bird of Prey" target="Bengal Fox" id="232" />
+      <edge source="Bird of Prey" target="Emperor Tamarin" id="233" />
+      <edge source="Bird of Prey" target="Gila Monster" id="234" />
+      <edge source="Bird of Prey" target="Indri" id="235" />
+      <edge source="Bird of Prey" target="Patagonian Mara" id="236" />
+      <edge source="Bird of Prey" target="Pink Fairy Armadillo" id="237" />
+      <edge source="Bird of Prey" target="Potoo" id="238" />
+      <edge source="Owl" target="Bald Eagle" id="239" />
+      <edge source="Owl" target="Banded Palm Civet" id="240" />
+      <edge source="Owl" target="Blue Jay" id="241" />
+      <edge source="Owl" target="Flying Fox" id="242" />
+      <edge source="Owl" target="Gila Monster" id="243" />
+      <edge source="Owl" target="Vampire Bat" id="244" />
+      <edge source="Raccoon" target="Bald Eagle" id="245" />
+      <edge source="Crow" target="Bald Eagle" id="246" />
+      <edge source="Hawk" target="Bald Eagle" id="247" />
+      <edge source="Hawk" target="Blue Jay" id="248" />
+      <edge source="Hawk" target="Coquerel's Sifaka" id="249" />
+      <edge source="Hawk" target="Emperor Tamarin" id="250" />
+      <edge source="Hawk" target="Gila Monster" id="251" />
+      <edge source="Hawk" target="Squirrel Monkey" id="252" />
+      <edge source="Hawk" target="Vampire Bat" id="253" />
+      <edge source="Hawk" target="Vulture" id="254" />
+      <edge source="Snake" target="Banded Palm Civet" id="255" />
+      <edge source="Snake" target="Bearded Dragon" id="256" />
+      <edge source="Snake" target="Blue Jay" id="257" />
+      <edge source="Snake" target="Emperor Tamarin" id="258" />
+      <edge source="Snake" target="Gila Monster" id="259" />
+      <edge source="Snake" target="Glass Frog" id="260" />
+      <edge source="Snake" target="Golden Lion Tamarin" id="261" />
+      <edge source="Snake" target="Golden Poison Dart Frog" id="262" />
+      <edge source="Snake" target="Harpy Eagle" id="263" />
+      <edge source="Snake" target="Leaf-tailed Gecko" id="264" />
+      <edge source="Snake" target="Lion-tailed Macaque" id="265" />
+      <edge source="Snake" target="Meerkat" id="266" />
+      <edge source="Snake" target="Monitor Lizard" id="267" />
+      <edge source="Snake" target="Naked Mole Rat" id="268" />
+      <edge source="Snake" target="Red-Eyed Tree Frog" id="269" />
+      <edge source="Snake" target="Secretary Bird" id="270" />
+      <edge source="Snake" target="Slow Loris" id="271" />
+      <edge source="Snake" target="Spider Monkey" id="272" />
+      <edge source="Snake" target="Squirrel Monkey" id="273" />
+      <edge source="Snake" target="Tarsier" id="274" />
+      <edge source="Snake" target="Thorny Devil" id="275" />
+      <edge source="Snake" target="Uakari" id="276" />
+      <edge source="Snake" target="Vulture" id="277" />
+      <edge source="Eagle" target="Barbary Macaque" id="278" />
+      <edge source="Eagle" target="Echidna" id="279" />
+      <edge source="Eagle" target="Fennec Fox" id="280" />
+      <edge source="Eagle" target="Flying Fox" id="281" />
+      <edge source="Eagle" target="Giant Panda" id="282" />
+      <edge source="Eagle" target="Meerkat" id="283" />
+      <edge source="Eagle" target="Red Fox" id="284" />
+      <edge source="Eagle" target="Red Kangaroo" id="285" />
+      <edge source="Eagle" target="Spider Monkey" id="286" />
+      <edge source="Eagle" target="Vampire Bat" id="287" />
+      <edge source="Eagle" target="Wombat" id="288" />
+      <edge source="Domestic Dog" target="Barbary Macaque" id="289" />
+      <edge source="Human" target="Bengal Tiger" id="290" />
+      <edge source="Human" target="Bonobo" id="291" />
+      <edge source="Human" target="Chimpanzee" id="292" />
+      <edge source="Human" target="Coelacanth" id="293" />
+      <edge source="Human" target="Eastern Gorilla" id="294" />
+      <edge source="Human" target="Fossa" id="295" />
+      <edge source="Human" target="Iberian Lynx" id="296" />
+      <edge source="Human" target="Komodo Dragon" id="297" />
+      <edge source="Human" target="Mandrill" id="298" />
+      <edge source="Human" target="Mountain Gorilla" id="299" />
+      <edge source="Human" target="Naked Mole Rat" id="300" />
+      <edge source="Human" target="Orangutan" id="301" />
+      <edge source="Human" target="Pufferfish" id="302" />
+      <edge source="Human" target="Snow Leopard" id="303" />
+      <edge source="Human" target="Sumatran Orangutan" id="304" />
+      <edge source="Human" target="Sumatran Rhino" id="305" />
+      <edge source="Human" target="Sumatran Rhinoceros" id="306" />
+      <edge source="Human" target="Sumatran Tiger" id="307" />
+      <edge source="Human" target="Tiger" id="308" />
+      <edge source="Human" target="Western Gorilla" id="309" />
+      <edge source="Human" target="Western Lowland Gorilla" id="310" />
+      <edge source="Human" target="White Tiger" id="311" />
+      <edge source="Human" target="Wolf" id="312" />
+      <edge source="Falcon" target="Blue Jay" id="313" />
+      <edge source="Bat" target="Blue Morpho Butterfly" id="314" />
+      <edge source="Bearded Pig" target="Bornean Orangutan" id="315" />
+      <edge source="Python" target="Bornean Orangutan" id="316" />
+      <edge source="Python" target="Flying Fox" id="317" />
+      <edge source="Python" target="Pangolin" id="318" />
+      <edge source="Python" target="Proboscis Monkey" id="319" />
+      <edge source="Python" target="Tree Kangaroo" id="320" />
+      <edge source="Black Eagle" target="Bornean Orangutan" id="321" />
+      <edge source="Tiger Shark" target="Bottlenose Dolphin" id="322" />
+      <edge source="Dusky Shark" target="Bottlenose Dolphin" id="323" />
+      <edge source="Bull Shark" target="Bottlenose Dolphin" id="324" />
+      <edge source="Mammal" target="Brazilian Wandering Spider" id="325" />
+      <edge source="Cougar" target="Brown Bear" id="326" />
+      <edge source="Asian Tiger" target="Burmese Python" id="327" />
+      <edge source="Anaconda" target="Capybara" id="328" />
+      <edge source="Caiman" target="Capybara" id="329" />
+      <edge source="Otter" target="Chinese Giant Salamander" id="330" />
+      <edge source="Weasel" target="Chinese Giant Salamander" id="331" />
+      <edge source="Badger" target="Chinese Giant Salamander" id="332" />
+      <edge source="Badger" target="European Hedgehog" id="333" />
+      <edge source="Anemone" target="Clownfish" id="334" />
+      <edge source="Coyote" target="Gila Monster" id="335" />
+      <edge source="Coyote" target="Pronghorn" id="336" />
+      <edge source="Canid Species" target="Dingo" id="337" />
+      <edge source="Saltwater Crocodile" target="Dugong" id="338" />
+      <edge source="Saltwater Crocodile" target="Gaur" id="339" />
+      <edge source="Feral Cat" target="Echidna" id="340" />
+      <edge source="Goanna" target="Echidna" id="341" />
+      <edge source="Leopard Seal" target="Emperor Penguin" id="342" />
+      <edge source="Sea Lion" target="Emperor Penguin" id="343" />
+      <edge source="Wild Cat" target="Emperor Tamarin" id="344" />
+      <edge source="Wild Cat" target="Golden Lion Tamarin" id="345" />
+      <edge source="Wild Cat" target="Vulture" id="346" />
+      <edge source="Dog" target="Emperor Tamarin" id="347" />
+      <edge source="Jackal" target="Fennec Fox" id="348" />
+      <edge source="Jackal" target="Meerkat" id="349" />
+      <edge source="Large Mammal" target="Fennec Fox" id="350" />
+      <edge source="Larger Predator" target="Fossa" id="351" />
+      <edge source="Larger Predator" target="Komodo Dragon" id="352" />
+      <edge source="Vary" target="Galliformes" id="353" />
+      <edge source="Dhole" target="Gaur" id="354" />
+      <edge source="Yellow-Throated Marten" target="Giant Panda" id="355" />
+      <edge source="Feral Dog" target="Giant Panda" id="356" />
+      <edge source="Feral Dog" target="Japanese Macaque" id="357" />
+      <edge source="Asian Black Bear" target="Giant Panda" id="358" />
+      <edge source="Other Shark" target="Goblin Shark" id="359" />
+      <edge source="Cayman" target="Green Anaconda" id="360" />
+      <edge source="Crab-eating Fox" target="Green Anaconda" id="361" />
+      <edge source="Tegu Lizard" target="Green Anaconda" id="362" />
+      <edge source="Crested Caracara" target="Green Anaconda" id="363" />
+      <edge source="Predatory Fish" target="Green Sea Turtle" id="364" />
+      <edge source="Predatory Fish" target="Horseshoe Crab" id="365" />
+      <edge source="Predatory Fish" target="Nudibranch" id="366" />
+      <edge source="Hunting Dog" target="Grevy's Zebra" id="367" />
+      <edge source="Various Predator" target="Hagfish" id="368" />
+      <edge source="Large Shark" target="Harp Seal" id="369" />
+      <edge source="Wildcat" target="Iberian Lynx" id="370" />
+      <edge source="Bee" target="Japanese Giant Hornet" id="371" />
+      <edge source="Mountain Hawk Eagle" target="Japanese Macaque" id="372" />
+      <edge source="Raccoon Dog" target="Japanese Macaque" id="373" />
+      <edge source="Rat" target="Kakapo" id="374" />
+      <edge source="Rat" target="Tuatara" id="375" />
+      <edge source="Cat" target="Kakapo" id="376" />
+      <edge source="Cat" target="Kiwi" id="377" />
+      <edge source="Cat" target="Numbat" id="378" />
+      <edge source="Cat" target="Quokka" id="379" />
+      <edge source="Cat" target="Tuatara" id="380" />
+      <edge source="Bobcat" target="Pronghorn" id="381" />
+      <edge source="Raptor" target="Lion-tailed Macaque" id="382" />
+      <edge source="Raptor" target="Tarsier" id="383" />
+      <edge source="Mongoose" target="King Cobra" id="384" />
+      <edge source="Mongoose" target="Malayan Krait" id="385" />
+      <edge source="Stoat" target="Kiwi" id="386" />
+      <edge source="Octopus" target="Leafy Sea Dragon" id="387" />
+      <edge source="Boa" target="Lemur" id="388" />
+      <edge source="Quoll" target="Tree Kangaroo" id="389" />
+      <edge source="Alligator" target="Manatee" id="390" />
+      <edge source="African Rock Python" target="Mandrill" id="391" />
+      <edge source="Crowned Eagle" target="Mandrill" id="392" />
+      <edge source="Eurasian Lynx" target="Markhor" id="393" />
+      <edge source="Himalayan Wolfe" target="Markhor" id="394" />
+      <edge source="Brown Bea" target="Markhor" id="395" />
+      <edge source="Sea Anemone" target="Nudibranch" id="396" />
+      <edge source="Golden Cat" target="Okapi" id="397" />
+      <edge source="Large Python" target="Orangutan" id="398" />
+      <edge source="Large Python" target="Sumatran Orangutan" id="399" />
+      <edge source="Felid" target="Patagonian Mara" id="400" />
+      <edge source="Grison" target="Patagonian Mara" id="401" />
+      <edge source="Crustacean" target="Peacock Mantis Shrimp" id="402" />
+      <edge source="Canid" target="Pink Fairy Armadillo" id="403" />
+      <edge source="Lizard" target="Secretary Bird" id="404" />
+      <edge source="Clouded Leopard" target="Proboscis Monkey" id="405" />
+      <edge source="Clouded Leopard" target="Sumatran Orangutan" id="406" />
+      <edge source="Marten" target="Red Panda" id="407" />
+      <edge source="Wild Dog" target="Serval" id="408" />
+      <edge source="Wild Dog" target="Wildebeest" id="409" />
+      <edge source="Wild Dog" target="Wombat" id="410" />
+      <edge source="Larger Shark" target="Shortfin Mako Shark" id="411" />
+      <edge source="Ocelot" target="Sloth" id="412" />
+      <edge source="Ocelot" target="Three-Toed Sloth" id="413" />
+      <edge source="Hawk Eagle" target="Slow Loris" id="414" />
+      <edge source="Tasmanian Tiger" target="Tasmanian Devil" id="415" />
+      <edge source="Bird of Pray" target="Tuatara" id="416" />
+      <edge source="Bird of Pray" target="Uakari" id="417" />
+      <edge source="Net" target="Vaquita" id="418" />
+      <edge source="Mountain Lion" target="Wolverine" id="419" />
+      <edge source="Wild dog" target="Zebra" id="420" />
     </edges>
   </graph>
 </gexf>
